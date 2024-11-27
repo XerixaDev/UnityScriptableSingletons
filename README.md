@@ -13,10 +13,10 @@
     ## How To Use - Functions
     This package includes a couple of Monobehaviour life cycle functions that can be used in your Singleton class. The below shows the included functions.
     ### Built-in functions
-    - > OnAwake()
-    - > Update()
-    - > OnDisable()
-    - > OnDestroy()
+    - **OnAwake()**
+    - **Update()**
+    - **OnDisable()**
+    - **OnDestroy()**
     ### Example
     ```
     public class className : Singleton<className>
