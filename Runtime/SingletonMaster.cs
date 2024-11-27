@@ -6,7 +6,7 @@ namespace Singleton
     public sealed class SingletonMaster : ScriptableObject
     {
         [field: SerializeField]
-        public bool autoCreateSingleton { get; private set; }
+        public bool autoCreateSingleton { get; private set; } = true;
 
         public static List<Singleton> Singletons => Instance.singletons;
 
